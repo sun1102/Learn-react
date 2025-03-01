@@ -1,3 +1,150 @@
+
 #heading{
     color: red;
+}
+
+.head {
+    color: yellowgreen;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 100%;
+    height: 70px;
+}
+.logo-container {
+    width: 50%;
+}
+
+.logo {
+    width: 100px;
+    height: 100%;
+}
+
+.nav-items {
+    display: flex;
+    width: 50%;
+}
+
+.nav-items > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.body {
+    width: 100%;
+    border: 1px solid blue;
+    margin-top: 5px;
+}
+
+.search-container {
+    width: 98%;
+    height: 50px;
+    border: 1px solid green;
+    margin: 5px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.res-container {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    margin: 5px auto;
+    border: 1px solid red;
+
+}
+
+.res-card {
+    width: 280px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.res-card:hover {
+    transform: scale(1.05);
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.res-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rating-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(1, 158, 1, 0.9);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.restaurant-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.cuisines {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.cost {
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.view-details {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.view-details:hover {
+    background: #0056b3;
 }
