@@ -48,14 +48,15 @@ li {
 }
 
 .search-container {
-    width: 98%;
-    height: 50px;
     border: 1px solid green;
     margin: 5px auto;
-    padding: 10px;
     display: flex;
-    justify-content: center;
     align-items: center;
+}
+
+.filter-btn, .reset-btn {
+    margin: 5px;
+    cursor: pointer;
 }
 
 .res-container {
@@ -147,4 +148,22 @@ li {
 
 .view-details:hover {
     background: #0056b3;
+}
+
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.shimmer-card {
+    width: 280px;
+    height: 325px;
+    background: rgb(236, 236, 236);
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
 }
